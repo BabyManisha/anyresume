@@ -1,0 +1,106 @@
+DB = resumedb
+collections = home, education, experience, about, contact
+=====================================
+db.home.insert({
+	name : "Arjun. Maari",
+	qualification : "M.S",
+	phone: "+1 650-737-2172",
+	email: "arjunmaari@gmail.com",
+	location: "Fremont, CA.",
+	info: "A professional with 4 years of work experience in a wide variety of system support services such as Risk and Compliance Operations, Financial Investment Banking and solution-based IT services including monitoring, troubleshooting and maintenance of the administrative system, and yet open for learning.",
+	info1: "Thus, seeking a platform to learn and strengthen my technical expertise while being able to contribute towards the growth of the organization."
+})
+
+db.home.find().pretty()
+=====================================
+db.education.insert({
+	course : "Master Of Science",
+	discription : "Computer Science",
+	year : "Aug 2015 – Dec 2016",
+	place : "Silicon valley, CA.",
+	details : "Project - DNS message coding and decoding using Google server. Scripts like Linux, Python, bash, SQL, Java and the basics networking concepts are included in this course."
+},
+{
+	course : "Bachelors of Commerce",
+	discription : "Computers, Accounting and Finance",
+	year : "June 2008 - March 2011",
+	place : "Hyderabad, INDIA."
+})
+
+db.education.find().pretty()
+=====================================
+db.experience.insert({
+	company : "Deloitte",
+	location : "Hyderabad, India",
+	timeperiod : "May 2013 - Aug 2015",
+	roleName: {"Compliance Reviewer": "Compliance Reviewer in Risk and compliance team.",
+		"Dbriefs Specialist": "Dbriefs Specialist in Core Talent Services(CTS)."},
+	roles : {
+		"Compliance Reviewer" : ["Support the Certified Public Accountants (CPA) with queries related to Continuous Professional Education (CPE) credits.",
+		"Understanding and keeping up-to-date with the regulations and other laws for CPA’s in order to assist them on validation.",
+		"Knowing the regulations and laws for CPA’s and work closely with leaders to assist them on validation.",
+		"Troubleshoot issues of clients with live production servers and guide them with state laws which helps them to acquire CPE credits.",
+		"Reviewing documentation and approving the relative credits.",
+		"Conduct training sessions for the leaders on the rules and regulations on CPE courses and the requirements to keep the CPA certification validated.",
+		"Prepare documentation for the meetings and trainings conducted and include required footnotes and endnotes for future references.",
+		"Acted as a mentor to new hires within the team. Participated in designing and trained new hires on the concept and process flow of work.",
+		"Trained fresher in team on the process flow and concept.",
+		"Assisted other processes related to risk review of CPE credits when the team was going through their peak season.",
+		"Maintenance of system services and performance by planning and executing system changes and upgrades."],
+		"Dbriefs Specialist" : ["As an individual contributor, solely handled end-to-end process related to Dbriefs for all professionals within Deloitte.",
+		"Verify the certifications of CPE courses taken up for the CPA’s and validate them in accordance with the professionals CPA licensing.",
+		"Conduct quarterly audits of the platform to identify bugs and work with the technology team for all system upgrades.",
+		"Participate in system testing activities and suggest improvements to the platform by monitoring, troubleshooting and maintenance of the administrative system and suggest improvements to the platform by participating in System testing.",
+		"Have the data stored and updated on SharePoint for validation and future references.",
+		"Ensuring clients are in compliance of holding their license by validating the information stored in the database.",
+		"Constant communication with the clients on their credits.",
+		"Create weekly metrics reports on the status of CPA’s credits by analyzing the information stored in the database."]
+	},
+	technologies: ["MS Excel", "MS Word", "Learning Administrative System", "MS PowerPoint", "MS Outlook", "Share Point"],
+	awards: ["Two Spot awards for client appreciations."]
+},{
+	company : "Wipro",
+	location : "Hyderabad, India",
+	timeperiod : "JAN 2012 - MAY 2013",
+	roleName: {"Investment Banker": "Investment Banker for Client Union Bank of Switzerland (UBS)."},
+	roles : {
+		"Investment Banker" : ["Performed the tasks of a Redemption Specialist by closely monitoring the stock market to create funding."]
+	}
+})
+
+db.experience.find().pretty()
+=====================================
+
+db.about.insert({
+	name : "Arjun. Maari",
+	qualification : "M.S",
+	phone: "+1 650-737-2172",
+	email: "arjunmaari@gmail.com",
+	location: "Fremont, CA.",
+	technologies: ["Shell and Python scripting", "Linux Administration","MS office and Outlook", "SQL", "CPE Cycle", "Investment Banking", "Exceptional time management", "Advanced problem solving skills"],
+	sports: ["National medalist in a game called Sepak-takraw (Asian game).",
+		"Represented my state(Former Andhra Pradesh and now Telangana) in Athletics and Soccer.",
+		"Represented Deloitte at inter corporate tournaments in Athletics, Soccer, Volleyball and field events."],
+	others: ["Represented Deloitte at inter corporate Dance festivals and Fashion shows.",
+		"Volunteered in many Greenery activities.",
+		"Trekking, hiking and traveling."],
+	voluteering: ["Worked as a trainer with a Non Profit institute – Make a Difference (M.A.D), a youth driven organization that requires its trainers to spend 10 hours every week to mentor, teach and interact with children living in the rural vicinity of the country, in order to ensure that they receive the support and care they need during their childhood.",
+	"Organized and lead local treks within India for groups of 20 - 25 members as a part of Hyderabad Trekking Club (HTC)."],
+	shorttermgoal: "Findout a platform to learn and strengthen my technical expertise while being able to contribute towards the growth of the organization.",
+	longtermgoal: "To become an Enterpernuer.",
+	aim: "To become an Enterpernuer."
+})
+
+db.about.find().pretty()
+=====================================
+
+db.contact.insert({
+	firstname : "BabyManisha",
+	lastname : "Sunkara",
+	mobile : "7306826086",
+	message : "Hello Arjun Sir..",
+	email : "babymaneesha@gmail.com"
+})
+
+db.contact.find().pretty()
+=====================================

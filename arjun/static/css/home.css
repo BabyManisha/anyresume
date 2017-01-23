@@ -1,0 +1,165 @@
+/* Our Custom CSS */
+body{
+	padding: 0px;
+	margin: 0px;
+	background-image: url('../images/sfo.jpg');
+	background-size: cover;
+}
+#nav-id.navbar-inverse{
+	/*background-color: #ea5b31;*/
+	border-radius: 0px;
+	padding: 0px 40px;
+	margin: 0px;
+	border: 0px;
+}
+
+#nav-id.navbar-inverse .navbar-nav>li>a{
+	color: #ffffff;
+}
+
+#nav-id.navbar-inverse .navbar-brand{
+	color: #ffffff;
+	font-size: 30px;
+}
+
+#main-container.container{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+.brang-img{
+	width: 100px;
+	height: 50px;
+	float: left;
+	margin: 0px 20px;
+}
+
+#homeimg{
+	width: inherit;
+	margin: 0px;
+	position: absolute;
+	z-index: 1;
+}
+
+.input-group{
+	width: 70%;
+	margin: 10px auto;
+	display: flex;
+}
+
+.input-group .dropdown{
+	margin: 0px;
+	display: initial;
+	float: left;
+	border-radius: 0px;
+}
+
+.dropdown .btn{
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+.dropdown .dropdown-menu{
+	min-width: 0;
+}
+
+.input-group .form-control#home-search{
+	width: 76%;
+	margin-left: 4px;
+	border: 4px;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+
+.input-group .input-group-btn{
+	width: auto;
+	float: right;
+}
+
+#nav-id.navbar-inverse .navbar-nav>li>a.app-active{
+	background-color: gray;
+	color: black;
+}
+
+nav.nav-footer.nav-foo.navbar.navbar-inverse{
+	width: 100%;
+	bottom: 0;
+	padding: 0 50px;
+}
+
+.navbar-footer{
+	font-size: 10px;
+}
+
+
+/* Carousel Styles */
+.carousel-inner img {
+    width: 100%;
+    z-index: 1;
+}
+
+/* Carousel Header Styles */
+.header-text {
+    position: absolute;
+    top: 20%;
+    left: 1.8%;
+    right: auto;
+    width: 96.66666666666666%;
+    color: #fff;
+}
+
+.header-text h2 {
+    font-size: 25px;
+}
+
+.header-text h2 span {
+    /*background-color: black;*/
+    /*#ea5b31;*/
+    /*#2980b9;*/
+	padding: 10px;
+	font-size: 30px;
+}
+
+.header-text h3 span {
+	color: #893ba9;
+	background-color: transparent;
+	padding: 15px;
+	font-size: 18px;
+	line-height: 2;
+}
+
+.btn-min-block {
+    min-width: 170px;
+    line-height: 26px;
+}
+
+.btn-theme {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    margin-right: 15px;
+}
+
+.btn-theme:hover {
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+#main-row.row{
+	margin: 10px 40px;
+}
+
+.navbar-nav>li>a{
+	cursor: pointer;
+}
+
+form{
+	margin-top: 50px;
+}
+
+w3-spin{
+	font-weight: bold;
+}
