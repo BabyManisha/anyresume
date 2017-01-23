@@ -71,7 +71,6 @@ $(document).ready(function () {
           var self = this;
           var url = "/arjun/aboutPage";
           $.get(url, function( data ) {
-            console.log(data);
             self.aboutDetails = JSON.parse(data);
           });
         }
